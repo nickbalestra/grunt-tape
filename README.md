@@ -33,7 +33,7 @@ module.exports = function (grunt) {
   grunt.initConfig({
     tape: {
       options: {
-        pretty: true
+        pretty: true,
         output: 'console'
       },
       files: ['test/**/*.js']
